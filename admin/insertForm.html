@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Menu</title>
+    <link rel="stylesheet" href="styleInsert.css">
+    <script type="text/javascript" src="insert.js"></script>
+</head>
+<body>
+  <div>
+    <div class="kotak">
+      <form enctype="multipart/form-data" method="POST" action="insertProses.php">
+        <div class="container">
+          <div class="container2">
+            <H2><center>Tambah Menu</center></H2>
+            <div class="row">
+              <div class="col-25">
+                <label for="id"><b>ID</b></label>
+              </div>
+              <div class="col-75">
+                <input type="number" name="menuid" placeholder="ID menu.."><br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="nama"><b>Nama Menu</b></label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="namamenu" placeholder="Nama menu.."><br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="harga"><b>Harga</b></label>
+              </div>
+              <div class="col-75">
+                <input type="number" name="harga" placeholder="Harga menu.."><br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="keterangan"><b>Keterangan</b></label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="keterangan" placeholder="Keterangan menu.."><br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="foto"><b>Foto</b></label>
+              </div>
+              <div class="col-75">
+                  <input type="file" name="foto" class="custom-file-upload" accept="image/*"><br>
+                </div>
+            </div>
+            <div class="row">
+              <div class="group">
+                <div class="back">
+                  <a href="index.php"><b>Back</b></a>
+                </div>
+                  <button type="submit" class="button" name="tambah" id="open"><b>Submit</b></button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-container" id="modal_container">
+    <div class="modal">
+      <h1>Data berhasil ditambahkan!</h1><br><br>
+      <button class="btn-closed" id="close">
+        Close me
+      </button>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.menu{
+    margin-top: 5%;
+    margin-left: 18%;
+    margin-bottom: 5%;
+}
+body{
+    background-color: #E7FDCA;
+}
+
+.jumbotron{
+    background-color: #343A40 !important;
+}
+
+.jumbotron p, h3, h4{
+    color: white !important;
+}

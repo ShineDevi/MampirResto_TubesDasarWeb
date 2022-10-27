@@ -1,0 +1,43 @@
+#slider{
+    align-content: center;
+    position: relative;
+    width: 100%;
+}
+#slider img{
+    width: 100%;
+    position: absolute;
+    -webkit-border-radius:0px 0px 0px 0px;
+    border-radius: 0px;
+    -moz-border-radius:0px 0px 0px 0px;
+}
+.menu{
+    margin-top: 45%;
+    margin-left: 18%;
+    margin-bottom: 5%;
+}
+body{
+    background-color: #E7FDCA;
+}
+.slidertitle{
+    width: 100%;
+    font-size: 60pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 11%;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    color:#FFF;
+}
+#container{
+    margin-top: 500px;
+}
+.jumbotron{
+    background-color: #343A40 !important;
+}
+  
+.jumbotron p, h3, h4{
+    color: white !important;
+}
